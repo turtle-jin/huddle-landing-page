@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --SoftMagenta: hsl(300, 69%, 71%);
+}
+
+body {
+    min-height: 100vh;
+    max-width: 100rem;
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--Violet);
+    padding: 3rem;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.container {
+    /* border: solid red; */
+    /* width: 90rem; */
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 4rem; */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-right: 5rem;
+    gap: 3rem;
+}
